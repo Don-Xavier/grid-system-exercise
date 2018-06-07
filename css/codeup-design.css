@@ -1,10 +1,18 @@
 .top-bar {
     height: 60px;
     background-color: lightgrey;
+    z-index: 0;
 }
 
 .main-container {
     height: 100vh;
     margin-top: 130px;
     background-color: lightgrey;
+    z-index: 0;
+}
+
+.logo {
+    border-radius: 100%;
+    z-index: 1000;
+    position: absolute;
 }
