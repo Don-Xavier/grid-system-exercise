@@ -64,9 +64,8 @@ h5 {
 }
 
 .circle {
-    height: 100px;
-    width: 100%;
-    padding-bottom: 90%;
+    height: 150px;
+    width: 150px;
     border: 8px solid white;
     border-radius: 50%;
     display: inline-block;
@@ -128,9 +127,20 @@ h5 {
     .xs-h2 {
         font-size: 40px;
     }
+
+    .circle-col {
+        padding-bottom: 1rem;
+    }
 }
 
 @media screen and (min-width: 576px) {
+    hr {
+        width: 70%;
+    }
+    p {
+        font-size: 14px;
+    }
+
     .hidden-xs {
         display: none;
     }
@@ -144,8 +154,8 @@ h5 {
     }
 
     .circle {
-        /*height: 120px;*/
-        /*width: 120px;*/
+        height: 100px;
+        width: 100px;
         margin-left: 0;
     }
 
@@ -179,10 +189,6 @@ h5 {
         font-size: 1.5rem;
     }
 
-    hr {
-        width: 90%;
-    }
-
     .xsmall-circle {
         height: 15px;
         width: 15px;
@@ -191,20 +197,9 @@ h5 {
         font-size: 10px;
     }
 
-    p {
-        font-size: 14px;
+    .circle-row {
+        margin: 0 12%;
     }
-    /*.circle-col:first-child {*/
-        /*padding-right: 0;*/
-    /*}*/
-
-    /*.circle-col:nth-child(n+2):nth-child(-n+3) {*/
-        /*padding: 0;*/
-    /*}*/
-
-    /*.circle-col:last-child {*/
-        /*padding-left: 0;*/
-    /*}*/
 }
 
 /* Small devices (tablets, 768px and up) */
