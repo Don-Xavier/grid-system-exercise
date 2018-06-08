@@ -64,8 +64,9 @@ h5 {
 }
 
 .circle {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100%;
+    padding-bottom: 90%;
     border: 8px solid white;
     border-radius: 50%;
     display: inline-block;
@@ -90,6 +91,7 @@ h5 {
 .circle>h4 {
     margin-top: 35%;
     width: 100%;
+    font-size: 2em;
     color: white;
 }
 
@@ -142,8 +144,8 @@ h5 {
     }
 
     .circle {
-        height: 120px;
-        width: 120px;
+        /*height: 120px;*/
+        /*width: 120px;*/
         margin-left: 0;
     }
 
@@ -174,7 +176,7 @@ h5 {
     }
 
     .circle>h4 {
-        font-size: 25px;
+        font-size: 1.5rem;
     }
 
     hr {
