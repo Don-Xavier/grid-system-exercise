@@ -47,8 +47,10 @@ h5 {
 .logo {
     z-index: 1000;
     position: absolute;
+    margin: auto;
     top: -30px;
-    left: 37%;
+    left: 0;
+    right: 0;
     height: 150px;
     width: 150px;
 }
