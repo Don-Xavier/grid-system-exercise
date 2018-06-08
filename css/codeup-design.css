@@ -5,14 +5,47 @@
 }
 
 .main-container {
-    height: 100vh;
-    margin-top: 130px;
+    height: 100%;
+    margin-top: 110px;
     background-color: lightgrey;
     z-index: 0;
 }
 
 .logo {
-    border-radius: 100%;
     z-index: 1000;
     position: absolute;
+    top: 20px;
+    left: 100px;
+    width: 200px;
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    border: 8px solid white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.red {
+    background-color: #E6563B;
+}
+
+.orange {
+    background-color: #EB9D3A
+}
+
+.green {
+    background-color: #7CB06C;
+}
+
+.blue {
+    background-color: #00ABA9;
+}
+
+.circle>h4 {
+    margin-top: 35%;
+    width: 100%;
+    color: white;
+    font-weight: bold;
 }
