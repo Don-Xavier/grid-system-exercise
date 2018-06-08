@@ -100,12 +100,34 @@ h5 {
     display: inline-block;
 }
 
+.row {
+    margin: 0 0;
+}
+
 @media screen and (max-width: 576px) {
     .xs-h1 {
-        font-size: 58px;
+        font-size: 56px;
     }
 
     .xs-h2 {
         font-size: 40px;
     }
 }
+
+@media screen and (min-width: 576px) {
+    .hidden {
+        display: none;
+    }
+    .main-container {
+        margin-top: 50px;
+    }
+
+    .circle {
+        height: 12px;
+        width: 120px;
+    }
+    /*.circle-red {*/
+        /*padding-bottom: 0;*/
+    /*}*/
+}
+
