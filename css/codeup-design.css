@@ -49,3 +49,16 @@
     color: white;
     font-weight: bold;
 }
+
+.img-border {
+    border: 10px solid #E6E6E6;
+    border-radius: 5%;
+    display: inline-block;
+}
+
+.xsmall-circle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
