@@ -1,3 +1,35 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Anton', sans-serif;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 28px;
+}
+
+.logo-nav {
+    padding: 0;
+}
+
 .top-bar {
     height: 60px;
     background-color: lightgrey;
@@ -6,20 +38,23 @@
 
 .main-container {
     height: 100%;
-    margin-top: 110px;
+    margin-top: 80px;
     background-color: lightgrey;
     z-index: 0;
+    padding: 0;
 }
 
 .logo {
     z-index: 1000;
     position: absolute;
-    top: 20px;
-    left: 100px;
-    width: 200px;
+    top: -30px;
+    left: 37%;
+    height: 150px;
+    width: 150px;
 }
 
 .circle {
+    margin-left: 15%;
     height: 150px;
     width: 150px;
     border: 8px solid white;
