@@ -176,6 +176,22 @@ h5 {
     .circle>h4 {
         font-size: 25px;
     }
+
+    hr {
+        width: 90%;
+    }
+
+    .xsmall-circle {
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        display: inline-block;
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 14px;
+    }
     /*.circle-col:first-child {*/
         /*padding-right: 0;*/
     /*}*/
@@ -189,3 +205,7 @@ h5 {
     /*}*/
 }
 
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width:768px) {
+
+}
