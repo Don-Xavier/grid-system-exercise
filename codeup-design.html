@@ -18,12 +18,19 @@
     <div class="container-fluid top-bar">
     </div>
 
-    <!-- NAVBAR SMALL -->
-    <div class="container-fluid logo-nav">
+    <!--XS NAVBAR-->
+    <div class="container-fluid logo-nav hidden-xs">
         <div class="row">
+            <div class="col-12 col-sm-4 col-md-6 medium-nav">
+                <img src="img/logo.png" class="logo">
+            </div>
+        </div>
+    </div>
 
-            <!--SMALL-->
-            <div class="col-sm-4 nav-bar-small-left hidden-sm">
+    <!-- NAVBAR SMALL -->
+    <div class="container-fluid logo-nav hidden-sm">
+        <div class="row">
+            <div class="col-sm-4 nav-bar-small-left">
                 <ul class="nav">
                     <li class="nav-item">
                         <a href="#" class="nav-link text-dark small-link">SERVICES</a>
@@ -33,13 +40,29 @@
                     </li>
                 </ul>
             </div>
+            <div class="col-12 col-sm-4 col-md-6 medium-nav">
+                <img src="img/logo.png" class="logo">
+            </div>
+            <div class="col-sm-4 nav-bar-small-right">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-dark small-link">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-dark small-link">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-            <div class="col-12 col-sm-4 col-md-6 hide-xs medium-nav">
+    <!--MEDIUM AND UP NAV BAR-->
+    <div class="container-fluid logo-nav hidden-md">
+        <div class="row">
+            <div class="col-12 col-sm-4 col-md-6 medium-nav">
                 <img src="img/logo.png" class="logo">
                 <h3 class="text-right abel-font" id="medium-header">codeup design</h3>
             </div>
-
-            <!--MEDIUM AND UP NAV BAR-->
             <div class="col-md-6 medium-nav d-flex justify-content-end hidden-md" id="nav-links">
                 <ul class="nav">
                     <li class="nav-item">
@@ -56,25 +79,12 @@
                     </li>
                 </ul>
             </div>
-
-            <!--SMALL-->
-            <div class="col-sm-4 nav-bar-small-right hidden-sm">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link text-dark small-link">BLOG</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link text-dark small-link">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-
         </div>
     </div>
 
     <!-- MAIN CONTAINER -->
     <div class="container-fluid main-container">
-        <div class="row hidden-md">
+        <div class="row hide-codeup-design">
             <div class="col-12">
                 <h2 class="text-center pt-4 pb-5 abel-font">codeup design</h2>
             </div>
@@ -167,7 +177,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 hidden-lg">
+                <div class="col-sm-6 hide-col">
                     <span class="img-border">
                         <img src="img/macbook.jpg" class="img-fluid">
                     </span>
@@ -184,8 +194,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-sm-6 hidden-lg">
+            <div class="row hide-row">
+                <div class="col-12 col-sm-6">
                     <span class="img-border">
                         <img src="img/man.jpg" class="img-fluid">
                     </span>
@@ -201,7 +211,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 hidden-lg">
+                <div class="col-sm-6">
                     <span class="img-border">
                         <img src="img/security.jpg" class="img-fluid">
                     </span>

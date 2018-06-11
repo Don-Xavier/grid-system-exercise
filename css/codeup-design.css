@@ -117,15 +117,10 @@ h5 {
 
 /* Extra Small screens */
 @media screen and (max-width: 575px) {
-    .hidden-lg, .hidden-hr .hidden-sm {
-        display: none;
+    .hidden-sm, .hidden-md, .hidden-lg, .hidden-hr, .hide-row, .hide-col {
+        display: none!important;
     }
-    #medium-header {
-        display: none;
-    }
-    #nav-links {
-        display:none;
-    }
+
     .xs-h1 {
         font-size: 56px;
     }
@@ -141,18 +136,15 @@ h5 {
 
 /* Small screens */
 @media screen and (min-width: 576px) {
-    #medium-header {
-        display: none;
+    .hidden-xs, .hidden-md, .hidden-lg {
+        display: none!important;
     }
+
     hr {
         width: 70%;
     }
     p {
         font-size: 14px;
-    }
-
-    .hidden-xs {
-        display: none;
     }
 
     .logo-nav {
@@ -214,12 +206,16 @@ h5 {
 
 /* Medium Screens */
 @media screen and (min-width:768px) {
-    .hidden-md, .hidden-sm, .hidden-xs {
-        display: none;
+    .hidden-md {
+        display: initial !important;
     }
 
-    #medium-header {
-        display: inherit;
+    .d-flex {
+        display: flex !important;
+    }
+
+    .hidden-xs, .hidden-sm, .hide-codeup-design{
+        display: none;
     }
 
     hr {
