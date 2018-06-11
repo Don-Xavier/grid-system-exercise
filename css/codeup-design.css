@@ -115,8 +115,9 @@ h5 {
     padding: 0.5rem 0.5rem;
 }
 
+/* Extra Small screens */
 @media screen and (max-width: 575px) {
-    .hidden-sm {
+    .hidden-sm, .hidden-hr {
         display: none;
     }
 
@@ -133,6 +134,7 @@ h5 {
     }
 }
 
+/* Small screens */
 @media screen and (min-width: 576px) {
     hr {
         width: 70%;
@@ -202,9 +204,34 @@ h5 {
     }
 }
 
-/* Small devices (tablets, 768px and up) */
+/* Medium Screens */
 @media screen and (min-width:768px) {
-    .hidden-sm, .hidden-xs {
+    .hidden-md, .hidden-sm, .hidden-xs {
         display: none;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    .logo {
+        top: -45px;
+        left: -52%;
+    }
+
+    .logo-nav {
+        margin: 0;
+    }
+
+    .medium-nav {
+        padding: 0;
+    }
+
+    .xs-h1 {
+        margin-top: 80px;
+    }
+
+    #nav-links {
+        padding-top: 10px;
     }
 }
