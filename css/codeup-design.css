@@ -265,6 +265,7 @@ h6 {
     .hide-work {
         display: none;
     }
+
     .col-lg-4, .col-lg-12 {
         padding: 15px;
     }
@@ -272,6 +273,10 @@ h6 {
     .lg-header-text {
         padding-left: 20%;
         text-align: center!important;
+    }
+
+    .hide-lg-work {
+        display: inherit;
     }
 
     .small-img {
@@ -298,7 +303,7 @@ h6 {
         text-align: left !important;
     }
 
-    .hide-lg-work {
-        display: inherit;
+    #medium-ul {
+        padding-right: 20px;
     }
 }
