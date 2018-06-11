@@ -26,6 +26,10 @@ h5 {
     font-size: 28px;
 }
 
+h6 {
+    font-size: 24px;
+}
+
 .nav-item {
     font-family: 'Abel', sans-serif;
 }
@@ -121,6 +125,10 @@ h5 {
         display: none!important;
     }
 
+    .hide-lg-work {
+        display: none;
+    }
+
     .xs-h1 {
         font-size: 56px;
     }
@@ -138,6 +146,10 @@ h5 {
 @media screen and (min-width: 576px) {
     .hidden-xs, .hidden-md, .hidden-lg {
         display: none!important;
+    }
+
+    .hide-lg-work {
+        display: none;
     }
 
     hr {
@@ -214,12 +226,12 @@ h5 {
         display: flex !important;
     }
 
-    .hidden-xs, .hidden-sm, .hide-codeup-design{
+    .hidden-xs, .hidden-sm, .hide-codeup-design, .hide-lg-work{
         display: none;
     }
 
     hr {
-        width: 90%;
+        width: 95%;
     }
 
     .logo {
@@ -241,5 +253,52 @@ h5 {
 
     #nav-links {
         padding-top: 10px;
+    }
+}
+
+/* Large and XL */
+@media (min-width: 992px) {
+    /*body {*/
+        /*margin: 0 10%;*/
+        /*background-color: lightgrey;*/
+    /*}*/
+    .hide-work {
+        display: none;
+    }
+    .col-lg-4, .col-lg-12 {
+        padding: 15px;
+    }
+    
+    .lg-header-text {
+        padding-left: 20%;
+        text-align: center!important;
+    }
+
+    .small-img {
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    .span-text {
+        font-family: 'Abel', sans-serif;
+        padding-bottom: 5px;
+    }
+
+    #tweet-text {
+        margin-top: 10px
+    }
+
+    #work-text-lg {
+        padding-bottom: 0;
+    }
+
+    #work-text {
+        padding-left: 30px;
+        text-align: left !important;
+    }
+
+    .hide-lg-work {
+        display: inherit;
     }
 }

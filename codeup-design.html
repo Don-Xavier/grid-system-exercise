@@ -9,6 +9,7 @@
     <!-- Your custom styles go here -->
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/codeup-design.css">
 
 </head>
@@ -61,7 +62,7 @@
         <div class="row">
             <div class="col-12 col-sm-4 col-md-6 medium-nav">
                 <img src="img/logo.png" class="logo">
-                <h3 class="text-right abel-font" id="medium-header">codeup design</h3>
+                <h3 class="text-right abel-font lg-header-text" id="medium-header">codeup design</h3>
             </div>
             <div class="col-md-6 medium-nav d-flex justify-content-end hidden-md" id="nav-links">
                 <ul class="nav">
@@ -151,15 +152,19 @@
             </div>
         </div>
 
-        <!-- IMAGE HEADING -->
+        <!-- SELECTED WORK HEADING -->
         <div class="row">
-            <div class="col-12">
-                <p class="text-center">SELECTED WORK</p>
+            <div class="col-12 col-lg-4" id="work-text-lg">
+                <p class="text-center" id="work-text">SELECTED WORK</p>
+            </div>
+            <div class="col-lg-4 hide-lg-work"></div>
+            <div class="col-lg-4 hide-lg-work">
+                <p>THE LAST</p>
             </div>
         </div>
 
-        <!-- IMAGE -->
-        <div class="container-fluid">
+        <!-- SELECTED WORK -->
+        <div class="container-fluid hide-work">
             <div class="row">
                 <div class="col-12 col-sm-6">
                     <span class="img-border">
@@ -229,6 +234,117 @@
                 </div>
             </div>
         </div>
+
+
+        <!--SELECTED WORK LG AND UP-->
+        <div class="container-fluid hide-lg-work">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <span class="img-border">
+                                <img src="img/apple-ipad.jpg" class="img-fluid">
+                            </span>
+                            <div class="row">
+                                <div class="col-6 pt-2">
+                                    <p class="text-nowrap">FEATURED PROJECT</p>
+                                </div>
+                                <div class="col-6 text-center font-weight-bold pt-2">
+                                    <span class="xsmall-circle red">D</span>
+                                    <span class="xsmall-circle orange">D</span>
+                                    <span class="xsmall-circle green">S</span>
+                                    <span class="xsmall-circle blue">H</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <span class="img-border">
+                                <img src="img/man.jpg" class="img-fluid">
+                            </span>
+                            <div class="row">
+                                <div class="col-6 pt-2">
+                                    <p class="text-nowrap">FEATURED PROJECT</p>
+                                </div>
+                                <div class="col-6 text-center font-weight-bold pt-2">
+                                    <span class="xsmall-circle red">D</span>
+                                    <span class="xsmall-circle orange">D</span>
+                                    <span class="xsmall-circle green">S</span>
+                                    <span class="xsmall-circle blue">H</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <span class="img-border">
+                                <img src="img/macbook.jpg" class="img-fluid">
+                            </span>
+                            <div class="row">
+                                <div class="col-6 pt-2">
+                                    <p class="text-nowrap">FEATURED PROJECT</p>
+                                </div>
+                                <div class="col-6 text-center font-weight-bold pt-2">
+                                    <span class="xsmall-circle red">D</span>
+                                    <span class="xsmall-circle orange">D</span>
+                                    <span class="xsmall-circle green">S</span>
+                                    <span class="xsmall-circle blue">H</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <span class="img-border">
+                                <img src="img/security.jpg" class="img-fluid">
+                            </span>
+                            <div class="row">
+                                <div class="col-6 pt-2">
+                                    <p class="text-nowrap">FEATURED PROJECT</p>
+                                </div>
+                                <div class="col-6 text-center font-weight-bold pt-2">
+                                    <span class="xsmall-circle red">D</span>
+                                    <span class="xsmall-circle orange">D</span>
+                                    <span class="xsmall-circle green">S</span>
+                                    <span class="xsmall-circle blue">H</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img src="img/mobile-phone.jpg" alt="" class="img-fluid small-img float-left">
+                            <h6 class="float-none">THE ADMIN BAR AND ABSOLUTE POSITIONING</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img src="img/head.jpg" alt="" class="img-fluid small-img float-left">
+                            <h6 class="float-none">NIBBLER AWESOME WEBSITE TESTING</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img src="img/ipad.jpg" alt="" class="img-fluid small-img float-left">
+                            <h6 class="float-none">HOW TO GET GOOGLE TO LIKE YOU</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <i class="fab fa-twitter"><span class="span-text"> LAST TWEET</span></i>
+                            <p id="tweet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Amet animi eaque eius explicabo hic illo molestias nemo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 
