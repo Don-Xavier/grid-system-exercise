@@ -117,10 +117,15 @@ h5 {
 
 /* Extra Small screens */
 @media screen and (max-width: 575px) {
-    .hidden-sm, .hidden-hr {
+    .hidden-lg, .hidden-hr .hidden-sm {
         display: none;
     }
-
+    #medium-header {
+        display: none;
+    }
+    #nav-links {
+        display:none;
+    }
     .xs-h1 {
         font-size: 56px;
     }
@@ -136,6 +141,9 @@ h5 {
 
 /* Small screens */
 @media screen and (min-width: 576px) {
+    #medium-header {
+        display: none;
+    }
     hr {
         width: 70%;
     }
@@ -208,6 +216,10 @@ h5 {
 @media screen and (min-width:768px) {
     .hidden-md, .hidden-sm, .hidden-xs {
         display: none;
+    }
+
+    #medium-header {
+        display: inherit;
     }
 
     hr {
